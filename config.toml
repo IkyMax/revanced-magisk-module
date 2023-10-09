@@ -12,28 +12,32 @@ version = "auto"                                                      # 'auto', 
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
 [Music-Extended]
-enabled = false
+enabled = true
 app-name = "Music"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
+excluded-patches = "custom-branding-music-afn-red"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 apkmirror-arch = "both"
 
 [YouTube-Extended]
-enabled = false
+enabled = true
 app-name = "YouTube"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
+excluded-patches = "custom-branding-icon-afn-red hide-endscreen-cards custom-video-buffer custom-branding comments always-autorepeat disable-zoom-haptics hide-album-cards hide-artist-card hide-autoplay-button hide-cast-button hide-email-address hide-filter-bar hide-floating-microphone-button hide-info-cards hide-shorts-components hide-timestamp old-quality-layout spoof-app-version tablet-mini-player"
+included-patches = "materialyou force-premium-heading"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
 [Music]
 build-mode = "both"
+excluded-patches = "custom-branding-music-afn-red"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 apkmirror-arch = "both"
 
